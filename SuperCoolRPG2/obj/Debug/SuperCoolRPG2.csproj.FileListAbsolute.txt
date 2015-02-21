@@ -1,0 +1,17 @@
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\bin\Debug\SuperCoolRPG2.exe.config
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\SuperCoolRPG2.csprojResolveAssemblyReference.cache
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\CharCreation.baml
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\MainWindow.baml
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\CharCreation.g.cs
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\MainWindow.g.cs
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\App.g.cs
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\SuperCoolRPG2_MarkupCompile.cache
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\SuperCoolRPG2.g.resources
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\SuperCoolRPG2.Properties.Resources.resources
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\SuperCoolRPG2.csproj.GenerateResource.Cache
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\bin\Debug\SuperCoolRPG2.exe
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\bin\Debug\SuperCoolRPG2.pdb
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\SuperCoolRPG2.exe
+c:\users\josh\documents\visual studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\SuperCoolRPG2.pdb
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\EquipmentManager.baml
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\SuperCoolRPG2\SuperCoolRPG2\obj\Debug\EquipmentManager.g.cs
