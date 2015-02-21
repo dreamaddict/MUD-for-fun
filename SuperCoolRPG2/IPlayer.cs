@@ -13,7 +13,9 @@ namespace SuperCoolRPG2
 
         string ClassString { get; }
 
-        int Exp { get; set; }
+        int exp { get; set; }
+
+        int level { get; set; }
 
     }
 }

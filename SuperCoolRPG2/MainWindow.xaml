@@ -12,7 +12,7 @@
         <Label x:Name="lblHitPoints" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,19,0,0"/>
         <Label x:Name="lblGold" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,45,0,0"/>
         <Label x:Name="lblExperience" Content="{Binding Path=Exp}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,73,0,0"/>
-        <Label x:Name="lblLevel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,99,0,0"/>
+        <Label x:Name="lblLevel" Content="{Binding Path=level}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,99,0,0"/>
         <Label Content="Select Action" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="627,531,0,0"/>
         <ComboBox x:Name="cboMonsters" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="369,559,0,0" ItemsSource="{Binding}"/>
         <ComboBox x:Name="cboPotions" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="369,593,0,0" ItemsSource="{Binding}"/>

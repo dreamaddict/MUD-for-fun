@@ -11,7 +11,7 @@ namespace SuperCoolRPG2
     public abstract class Player :IPlayer, INotifyPropertyChanged
     {
 
-        public int exp;
+        public int level { get { return exp / 1; } set { level = 1; } }
 
         public List<Item> Inventory = new List<Item>();
 
@@ -23,11 +23,9 @@ namespace SuperCoolRPG2
 
         public Location CurrentLocation { get; set; }
 
-        public int Level = 1;
-
         public Weapon EquippedWeapon { get; set; }
 
-        public int Exp { get { return exp; } set { exp = value; NotifyPropertyChanged(); } }
+        public int exp { get { return exp; } set { exp = value; NotifyPropertyChanged(); } }
 
         private void NotifyPropertyChanged([CallerMemberName] string property = null)
         {

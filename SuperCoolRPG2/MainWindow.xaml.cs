@@ -54,7 +54,7 @@ namespace SuperCoolRPG2
             rtbLocation.Text = newLocation.Name + Environment.NewLine;
             rtbLocation.Text += newLocation.Description + Environment.NewLine;
 
-            Game.GenerateRandomMonster(_player.Level, _player.CurrentLocation);
+            Game.GenerateRandomMonster(_player.level, _player.CurrentLocation);
 
             if (_player.CurrentLocation.AreaMonsterList.Count != 0)
             {
@@ -150,7 +150,7 @@ namespace SuperCoolRPG2
                 SendTextToTextBox(Environment.NewLine + "You defeated the " + _currentMonster.Name + Environment.NewLine);
 
                 //reward xp
-                _player.Exp += _currentMonster.XPReward;
+                _player.exp += _currentMonster.XPReward;
 
                 _player.CurrentLocation.AreaMonsterList.Remove(_currentMonster);
                 

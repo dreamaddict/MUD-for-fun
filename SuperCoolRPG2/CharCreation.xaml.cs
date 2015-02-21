@@ -26,11 +26,18 @@ namespace SuperCoolRPG2
 
         public CharCreation()
         {
-            Console.WriteLine("Please enter a name /n Name: ");
-            _player.Name = Console.ReadLine();
-            Console.WriteLine("Please enter a class (Warrior, Mage) /n Class: ");
-            getCharClass(Console.ReadLine());
+            InitializeComponent();
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            getCharClass(cbPlayerClasses.Text);
+            _player.Name = tbName.Text;
+            MainWindow gameWindow = new MainWindow(_player);
+            this.Hide();
+            gameWindow.Show();
         }
 
         public void getCharClass(string input)
@@ -47,4 +54,5 @@ namespace SuperCoolRPG2
         }
 
     }
+
 }
