@@ -1,4 +1,0 @@
-C:\Users\Josh\documents\visual studio 2013\Projects\SuperAdventure\Engine\bin\Release\Engine.dll
-C:\Users\Josh\documents\visual studio 2013\Projects\SuperAdventure\Engine\bin\Release\Engine.pdb
-C:\Users\Josh\documents\visual studio 2013\Projects\SuperAdventure\Engine\obj\Release\Engine.dll
-C:\Users\Josh\documents\visual studio 2013\Projects\SuperAdventure\Engine\obj\Release\Engine.pdb
