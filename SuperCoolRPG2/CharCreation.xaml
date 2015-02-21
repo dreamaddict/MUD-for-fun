@@ -1,0 +1,27 @@
+﻿<Window x:Class="SuperCoolRPG2.CharCreation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CharCreation" Height="300" Width="300">
+    <Grid>
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Height="23" Margin="10,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="162,19,0,0" VerticalAlignment="Top"/>
+        <Button Content="Start!" HorizontalAlignment="Left" Margin="196,240,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <ComboBox x:Name="cbPlayerClasses" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Warrior">
+                </ComboBoxItem>
+                <ComboBoxItem Content="Mage">
+                </ComboBoxItem>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="169,53,0,0" TextWrapping="Wrap" Text="Class" VerticalAlignment="Top" RenderTransformOrigin="-0.082,-0.33" Height="25" Width="30">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="1.441"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+    </Grid>
+</Window>
